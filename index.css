@@ -1,0 +1,187 @@
+body{
+    max-width: 1759px;
+    max-height: 2394px;
+    margin-left: 5rem;
+
+}
+
+header{
+    max-width: 105rem;
+    max-height: 13rem;
+}
+section{
+    max-width: 105rem;
+    max-height: 25rem;
+}
+main{
+    width: 93rem;
+    height: 43rem;
+}
+.header-first{
+    display:flex;
+    justify-content: space-between;
+    height: 4rem;
+    margin-top: 1.9rem;
+    flex-wrap: nowrap;
+}
+.search-stick{
+    height:1.3rem;
+}
+
+.menu{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.2rem;
+    width: 19rem;
+    flex-wrap: nowrap;
+    
+}
+.menu a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    gap:1em;
+    color:black;
+}
+.menu a:hover{
+    color:red;
+}
+
+.bell{
+    background-color: white;
+    width: 5rem;
+    height: 3rem ;
+}
+
+.logo{
+    
+    width: 12.3rem;
+    height: 3.7rem ;
+    padding: 0.9rem;
+    align-items:flex-start;
+}
+.user-control-panel{
+    width: 19.6rem;
+    display: flex;
+    justify-content:right;
+    align-items:center;
+    margin-right: 0rem;
+    margin-top: 1.7rem;
+    gap:10px;
+}
+.img-profile{
+    width: 3rem;
+    height: 3rem;
+}
+div.hero-content h1{
+    width: 14rem;
+    height: 2rem;
+}
+
+.rating{
+    width: 25rem;
+    height: 3rem;
+}
+.checked{
+    color:orange;
+}
+.description{
+    text-align: left;
+    width:50rem;
+    height: 10rem;
+}
+.movie-details{
+    width: 17rem;
+    height: 7rem;
+    margin-top: 3rem;
+}
+div.movie-details span{
+    color:red;
+    font-weight: bold;
+}
+li{
+    list-style: none;
+}
+.details{
+    margin-left: 0;
+}
+.hero-content{
+    padding: 1.8rem;
+    margin-left: 0.7rem;
+}
+.btn{
+    margin-top: 1rem;
+}
+ul {
+    margin: 0;             
+    padding: 0;            
+}
+div.suggestion-title a {
+    display:flex;
+    justify-content: flex-end;
+}
+.suggestion-content{
+    display: flex;
+    flex-direction: column;
+    width: 29rem;
+    height: 17rem;
+    gap:1.5em;
+}
+.suggestion-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3 rem;
+    gap:4rem;
+}
+
+.maturity-rating{
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.suggestion-title{
+    width: 108rem;
+    height: 12rem;
+}
+footer{
+    height: 17,5rem;
+    width: 108rem;
+    gap:10rem;
+    margin-top: 13rem;
+}
+.footer-div1{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.footer-div1 nav{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    gap:2.5rem;
+    width: 35% auto;
+}
+.footer-div1 p{
+    width: 40rem;
+}
+.hidden{
+    visibility: hidden;
+}
+.google-play-icon img{
+    height: 6rem;
+    width:15rem;
+}
+.app-store-icon img{
+    height: 6rem;
+    width:15rem;
+}
+.footere{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:5rem;
+}
+footer div p {
+    text-align: center;
+}
