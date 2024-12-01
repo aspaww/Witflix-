@@ -154,7 +154,7 @@ div.suggestion-title a {
     justify-content: flex-end;
 }
 .rfya{
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 .suggestion-content {
@@ -309,7 +309,7 @@ img, input, button, .menu a {
         display: flex;
         justify-content: space-between;
         align-items: center; 
-        height: 13rem;
+        height: 7rem;
     }
     .logo{
         display: flex;
